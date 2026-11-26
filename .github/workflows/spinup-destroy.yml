@@ -3,13 +3,12 @@ name: Configure Azure environment
 on:
   pull_request:
     types: [labeled]
-  workflow_dispatch:
 
 env:
   IMAGE_REGISTRY_URL: ghcr.io
   AZURE_RESOURCE_GROUP: cd-with-actions
   AZURE_APP_PLAN: actions-ttt-deployment
-  AZURE_LOCATION: '"East US"'
+  AZURE_LOCATION: '"North Europe"'
   ###############################################
   ### Replace <username> with GitHub username ###
   ###############################################
